@@ -24,11 +24,11 @@ You can disable weather in the app or revoke location access in iOS Settings. Ti
 
 ## Optional usage statistics
 
-Usage reporting is off until you explicitly enable **Share Usage Statistics** in Settings. An earlier version's default setting is not treated as consent. You may turn reporting off again at any time without losing app functionality.
+Starting with iPhone build 189, usage reporting is off until you explicitly enable **Share Usage Statistics** in Settings. Earlier beta builds enabled reporting by default; you can disable **Share Anonymous Usage** in those builds. Updating to build 189 does not treat that earlier default as consent. You may turn reporting off again at any time without losing app functionality.
 
 When enabled, the app uses PostHog's EU-hosted service to receive feature events, selected built-in scene names/identifiers, listening durations, app lifecycle events, a randomly generated app-installation identifier, and technical context such as app version, device model, operating-system version, language, time zone, and screen size. A random identifier can connect events from an installation, so we do not describe this as data that is impossible to associate.
 
-These events do not contain microphone audio, saved recordings, custom visualizer files, typed feedback, camera frames, or precise location. The app does not create named PostHog person profiles, use advertising IDs, record screens, or enable automatic PostHog crash recording. Analytics events instruct the service to skip IP-based location enrichment and replace the event IP field. Like other online services, the provider still receives network information, including an IP address, to handle HTTPS requests. See [PostHog's privacy policy](https://posthog.com/privacy).
+These events do not contain microphone audio, saved recordings, custom visualizer files, typed feedback, camera frames, or precise location. The app does not create named PostHog person profiles, use advertising IDs, record screens, or enable automatic PostHog crash recording. In build 189 and later, analytics events instruct the service to skip IP-based location enrichment and replace the event IP field. Like other online services, the provider still receives network information, including an IP address, to handle HTTPS requests. See [PostHog's privacy policy](https://posthog.com/privacy).
 
 Turning reporting off stops future analytics collection by the app. It does not automatically erase events already received. Contact us about data requests; without an account, we may need enough information to locate the relevant record without asking for unnecessary personal details.
 
