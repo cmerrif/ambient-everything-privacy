@@ -22,6 +22,12 @@ When you enable local weather and grant location access, the app rounds its loca
 
 You can disable weather in the app or revoke location access in iOS Settings. Time, motion, and soundscapes still work without weather. Apple's handling of its services is described in its [privacy policy](https://www.apple.com/legal/privacy/) and [Weather privacy information](https://www.apple.com/legal/privacy/data/en/weather/).
 
+## Optional device-audio visualization
+
+On iOS 27 or later, Device Audio is available only when Apple’s system capture service permits it. You choose it explicitly and authorize capture through Apple’s sharing picker. Ambient Everything receives permitted audio for temporary on-device spectrum, level and onset analysis. It does not receive screen frames through this feature, save the stream, add it to Session Export, or upload it. Protected media and some apps may supply silence. You can stop in the visualizer audio selector or Apple’s capture controls.
+
+Room instead uses microphone permission to hear nearby speakers. It cannot directly read another app’s decoded audio. Ambient Everything remains available as a source for the app’s own final output.
+
 ## Optional usage statistics
 
 Starting with iPhone build 189, usage reporting is off until you explicitly enable **Share Usage Statistics** in Settings. Earlier beta builds enabled reporting by default; you can disable **Share Anonymous Usage** in those builds. Updating to build 189 does not treat that earlier default as consent. You may turn reporting off again at any time without losing app functionality.
