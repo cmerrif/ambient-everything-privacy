@@ -1,12 +1,12 @@
 # Ambient Everything — Privacy Policy
 
-Last updated: September 20, 2026
+Last updated: September 21, 2026
 
 Ambient Everything is made by Openly Geek LLC. This policy covers the iPhone app and this policy page. You can listen without creating an account. The app does not sell personal information or use advertising identifiers, targeted advertising, cross-app advertising tracking, or session replay.
 
 ## Sound belongs to your session
 
-Echoes of Now temporarily remembers short sounds from your microphone, processes them on your device, and returns them as music. Memory Bubbles lets you deliberately capture short sounds for a temporary interactive session. These memories are not sent to Openly Geek or to an audio-processing service. They age out or are released when their experience ends; an active save/export may finish before its resources are released.
+Echoes of Now and Pulse Grid Playground temporarily remember short sounds from your microphone, process them on your device, and return them as music. Memory Bubbles lets you deliberately capture short sounds for a temporary interactive session. These memories are not sent to Openly Geek or to an audio-processing service. They age out or are released when their experience ends; an active save/export may finish before its resources are released.
 
 Places to Drift can play without microphone access. You can stop capture, stop playback, or revoke microphone permission in iOS Settings. A frozen-memory mode can continue transforming existing sounds after new microphone capture stops. Background listening may continue while an active audio session is running; leaving the app does not necessarily stop that session.
 
@@ -14,7 +14,7 @@ If you choose to save a clip, the app creates a recording of the composed output
 
 ## Motion, camera, and optional speech
 
-Device motion, orientation, touch, time of day, and audio-route information can shape sound and visuals locally. Optional camera/AR presentation uses camera access for that experience; the app does not send its camera frames to us. The optional Orb voice-recall interaction uses on-device speech recognition only when supported and permitted. It does not send a transcript or microphone stream to us.
+Device motion, orientation, touch, time of day, and audio-route information can shape sound and visuals locally. Optional camera/AR presentation uses camera access for that experience; the app does not send its camera frames to us. In Pulse Grid Playground’s optional Lens mode, camera color, light and movement are analyzed on your device to shape the music. Those frames are not saved, uploaded or included in performance exports; the app retains only small color/motion statistics while the mode is active. The optional Orb voice-recall interaction uses on-device speech recognition only when supported and permitted. It does not send a transcript or microphone stream to us.
 
 ## Optional local weather
 
